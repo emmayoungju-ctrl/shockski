@@ -34,5 +34,6 @@ pro tip: have a running doc of what all the saved files are from/mean
 some things to note:
 - use high contrast tape with a black dot in the center at the end of the shocks:
     - adobe after effects has a tough time tracking the bare end of the shock since all the rungs of the shock look the same; adding this feature significantly increases its accuracy and less need for manual adjustments
+    - adobe after effects also uses luminance to track; rgb is an option, but it is more time consuming. thus, try to use neon or brightly colored tape
 - try your best to keep everything in frame:
     - after effects bugs out when the feature being tracked goes out of frame; keeping everything in frame will save a lot of time (frame-by-frame manual adjustments)
