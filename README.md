@@ -21,6 +21,8 @@ disclaimer: should and must uncomment save lines and also change file names for 
 2. use reddottrack.m and greendottrack.m to extract coordinates of dots in every frame.
 3. use distancecalc.m to extract distance between red and green dots in every frame and plot over time using fps.
 4. use chattedforce.m to theoretically get shock force at every time
+   - complete bullshit all from chat do not trust
+pro tip: have a running doc of what all the saved files are from/mean
 
 ## current sources of error (unresolved)
 - width of dots as a distance error tolerance
