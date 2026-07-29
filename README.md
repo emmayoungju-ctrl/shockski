@@ -19,8 +19,10 @@ disclaimer: should and must uncomment save lines and also change file names for 
         - dot: center of marker
     - note: must use high contrast colors. currently hard programmed for red and green dots (in respective scripts) but can adjust search parameters for different colors
 2. use reddottrack.m and greendottrack.m to extract coordinates of dots in every frame.
-3. use distancecalc.m to extract distance between red and green dots in every frame and plot over time using fps.
-4. use chattedforce.m to theoretically get shock force at every time
+    - ensure to look at output graphs and compare with adobe after effects as a visual check
+    - sometimes can have problems tracking dots that move too far between frames; if you run into this issue, try increasing the search radius
+4. use distancecalc.m to extract distance between red and green dots in every frame and plot over time using fps.
+5. use chattedforce.m to theoretically get shock force at every time
    - complete bullshit all from chat do not trust
 pro tip: have a running doc of what all the saved files are from/mean
 
