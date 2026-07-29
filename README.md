@@ -11,6 +11,7 @@ inspired by digital image correlation (dic) methods commonly used in materials s
 since can visually observe the movement of shocks, we should technically be able to extract compressive acceleration to find our shock loads.
 
 ## workflow
+disclaimer: should and must uncomment save lines and also change file names for input references
 1. use video editing software to place green and red dots to track points of interest (ends of shock) while making the rest of the video black and white
     - adobe after effects: [video tutorial link](https://youtu.be/tqWWhChc8RA?si=d--2B2rBpk3ecMVZ)
         - bigger box: search area
@@ -19,6 +20,7 @@ since can visually observe the movement of shocks, we should technically be able
     - note: must use high contrast colors. currently hard programmed for red and green dots (in respective scripts) but can adjust search parameters for different colors
 2. use reddottrack.m and greendottrack.m to extract coordinates of dots in every frame.
 3. use distancecalc.m to extract distance between red and green dots in every frame and plot over time using fps.
+4. use chattedforce.m to theoretically get shock force at every time
 
 ## current sources of error (unresolved)
 - width of dots as a distance error tolerance
