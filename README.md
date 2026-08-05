@@ -1,4 +1,5 @@
 # shockski
+the shockpots are broken again?
 digital shock compression analysis
 
 pov emma's attempt at trying to visually track shock compression to find shock load
